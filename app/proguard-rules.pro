@@ -1,2 +1,0 @@
--keep class net.zetetic.database.** { *; }
--keep class androidx.sqlite.** { *; }
