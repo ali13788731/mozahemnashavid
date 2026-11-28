@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- shield -->
+    <path android:pathData="M54,24 L76,32 L76,52 C76,66 66.5,77 54,83 C41.5,77 32,66 32,52 L32,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32" android:startY="24"
+                android:endX="76" android:endY="83"
+                android:type="linear">
+                <item android:color="#FF6366F1" android:offset="0" />
+                <item android:color="#FF22D3EE" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- lock body -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M45,50 h18 a2.5,2.5 0 0 1 2.5,2.5 v11 a2.5,2.5 0 0 1 -2.5,2.5 h-18 a2.5,2.5 0 0 1 -2.5,-2.5 v-11 a2.5,2.5 0 0 1 2.5,-2.5 z" />
+    <!-- lock shackle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M47.5,50 v-4 a6.5,6.5 0 0 1 13,0 v4" />
+    <!-- keyhole -->
+    <path
+        android:fillColor="#FF4F46E5"
+        android:pathData="M54,56 m-2.2,0 a2.2,2.2 0 1 1 4.4,0 a2.2,2.2 0 1 1 -4.4,0 M53,57 h2 v5 h-2 z" />
+</vector>
